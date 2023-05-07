@@ -1,0 +1,134 @@
+body {
+    background: rgba(0, 0, 0, 0.652);
+    color: aliceblue;
+}
+
+.cont {
+    position: fixed;
+    top: 20px;
+    background: #958f8f5c;
+    width: 100%;
+    padding: 20px;
+}
+
+.toDoBorder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#listAdd {
+    width: 280px;
+    background: #828282;
+    box-shadow: #776f6f 5px 5px 2px 2px;
+    border: none;
+    height: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+.toDoText {
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.toDoBtn {
+    width: 280px;
+    background: #828282;
+    box-shadow: #776f6f 5px 5px 2px 2px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(204, 195, 195);
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.toDoBtn:hover {
+    color: rgb(227, 215, 215);
+    font-weight: bold;
+    transition: 1s;
+}
+
+#listAppend {    
+    width: 280px;
+    border: none;
+    background: #828282;
+    box-shadow: #776f6f 5px 5px 2px 2px;
+    font-family: cursive;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#del {
+    color: rgb(130, 19, 19);
+    font-weight: bold;
+    padding-left: 10px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.done{
+    width: 60%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    background: #828282; 
+    color: aliceblue;
+}
+
+/* tablet and mobile */
+
+@media screen and (min-width: 768px) {
+
+    .toDoText {
+        text-align: center;
+    }
+
+    #listAdd {
+        display: block;
+        width: 500px;
+        margin: auto;
+        height: 60px;
+    }
+
+    .toDoBtn {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+        width: 508px;
+        height: 35px;
+    }
+
+    .toDoBtn:hover {
+        color: rgb(227, 215, 215);
+        font-weight: bold;
+        transition: 1s;
+    }
+
+    #listAppend {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        background: #828282;
+        box-shadow: #776f6f 5px 5px 2px 2px;
+        width: 500px;
+        border-radius: 5px;
+    }
+}
